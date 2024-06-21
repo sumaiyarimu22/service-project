@@ -4,7 +4,9 @@ import axios from "axios";
 
 const fetchServices = async () => {
   try {
-    const response = await axios.get("http://localhost:3000/api/servicesdata");
+    const response = await axios.get(
+      "https://service-project-rho.vercel.app/api/servicesdata"
+    );
     console.log(response.data);
     return response.data;
   } catch (error) {
