@@ -1,6 +1,6 @@
 "use client";
 
-import ServiceCard from "@/components/services/serviceCard";
+import ServiceCard from "@/components/services/ServiceCard";
 import { ServiceContext } from "@/provider/serviceDataProvider";
 
 import { useContext } from "react";
